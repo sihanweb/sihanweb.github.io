@@ -105,7 +105,7 @@ h1 {
  **************************************************/
 .content{
     padding-top: 20px;
-    padding-bottom: 60px; /*ÖØÒª£¡¸øfooterÔ¤ÁôµÄ¿Õ¼ä*/
+    padding-bottom: 60px; /*é‡è¦ï¼ç»™footeré¢„ç•™çš„ç©ºé—´*/
     
     width: 680px;
     max-width: 75%;
@@ -130,7 +130,7 @@ h1 {
 {
     position: absolute; /* to body, which is the nearest "relative" */
     bottom: 0;
-    height: 60px;          /*footerµÄ¸ß¶ÈÒ»¶¨ÒªÊÇ¹Ì¶¨Öµ*/
+    height: 60px;          /*footerçš„é«˜åº¦ä¸€å®šè¦æ˜¯å›ºå®šå€¼*/
 
     color: white;
     font-size: 0.8em;
