@@ -30,3 +30,20 @@
     border: 2px outset #DC143C;
     margin-right: 2px;
 }
+
+/**************************************************
+ ***   Timeline   ***
+ **************************************************/
+#timeline h4 {
+	font-size: 1.2em;
+	margin: 30px 0;
+}
+
+#timeline h5 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+#timeline p {
+	margin: 20px 0;
+}
