@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="css/site.css" />
   <link rel="stylesheet" type="text/css" href="css/content.css" />
   <link rel="shortcut icon"  type="image/x-icon" href="favicon.ico" />
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
 </head>
 
 <body class="wrap">
@@ -21,26 +22,26 @@
     <p>擁抱夢想 · 擁抱你</p>
   </div><!--header-->
 
-  <ul class="nav" id="navigation">
-      <li><a class="parallelogram" href="">首 頁</a></li>
-      <li><a class="parallelogram" href="#">資 訊</a></li>
-      <li><a class="parallelogram active" href="timeline/">歷 程</a></li>
-      <li><a class="parallelogram" href="music/">音樂作品</a></li>
-      <li><a class="parallelogram" href="#">圖 集</a></li>
-      <li><a class="parallelogram" href="#">影 音</a></li>
-      <li><a class="parallelogram" href="#">漂流瓶聚集地</a></li>
-  </ul>
+  <!--navigation-->
+  <div w3-include-html="/static/sidebar-nav.html"></div>
 
   <div class="content">
     <div id="timeline" class="article">
+	  <h4>2016/10</h4>
+	  <p>10/11 刘思涵《一个人的森林》上线 | 桂纶镁电影《德布西森林》主题曲</p>
+	  <h4>2016/01</h4>
+	  <p>1/5 -【刘思涵芒果TV踢馆小站】- <a href="http://www.hunantv.com/v/2015/wsgstg/singer/10/">link</a></p>
+      <h4>2015/12</h4>
+	  <p>12/31 - 法语单曲发行</p>
+      <p>12/19 -【刘思涵&梁晓雪F·PLUS乐范52（我爱）Mini Concert北京汇源空间】</p>
       <h4>2015/06</h4>
-      <h5>六月 -【刘思涵2015live全国巡演】</h5>
+      <h5>【刘思涵2015live全国巡演】</h5>
       <p>6/19 【刘思涵2015live全国巡演】首站成都-【莲花府邸】</p>
       <p>6/22 【刘思涵2015live全国巡演】-重庆-【坚果Livehouse】</p>
       <p>6/24 【刘思涵2015live全国巡演】-长沙-【46Livehouse】</p>
-      <p>6/27【刘思涵2015live全国巡演】-南京-【斑马Livehouse】</p>
+      <p>6/27 【刘思涵2015live全国巡演】-南京-【斑马Livehouse】</p>
       <h4>2015/05</h4>
-      <h5>五月-【《小时代》音乐剧，饰演唐宛如】</h5>
+      <h5>【《小时代》音乐剧，饰演唐宛如】</h5>
       <p>5/17 《小时代音乐剧》上海首演</p>
       <h4>2014</h4>
 	  <p>5/20 入围第25届金曲奖最佳新人奖</p>
@@ -51,17 +52,14 @@
     </div>
   </div><!--content-->
 
-  <div class="footer">
-  <ul class="nav">
-      <li><a href="#" target="_self">正體中文</a></li>
-      <li><a href="#" target="_self">简体中文</a></li>
-      <li><a href="#" target="_self">English</a></li>
-      <li><a href="#" target="_self">français</a></li>
-      <li><a href="about/" target="_self">關於本站</a></li>
-  </ul>
-  </div><!--footer-->
+  <!--navigation-->
+  <div w3-include-html="/static/footer.html"></div>
 
 </div><!--container-->
+
+<script>
+w3IncludeHTML();
+</script>
 
 </body>
 

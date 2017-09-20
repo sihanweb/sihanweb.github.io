@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/site.css" />
   <link rel="shortcut icon"  type="image/x-icon" href="favicon.ico" />
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
 </head>
 
 <body class="wrap">
@@ -20,15 +21,8 @@
     <p>擁抱夢想 · 擁抱你</p>
   </div><!--header-->
 
-  <ul class="nav" id="navigation">
-      <li><a class="parallelogram" href="">首 頁</a></li>
-      <li><a class="parallelogram" href="#">資 訊</a></li>
-      <li><a class="parallelogram" href="#">歷 程</a></li>
-      <li><a class="parallelogram" href="music/">音樂作品</a></li>
-      <li><a class="parallelogram" href="#">圖 集</a></li>
-      <li><a class="parallelogram" href="#">影 音</a></li>
-      <li><a class="parallelogram" href="#">漂流瓶聚集地</a></li>
-  </ul>
+  <!--navigation-->
+  <div w3-include-html="/static/sidebar-nav.html"></div>
 
   <!--?php include 'content.php'; ?-->
   <div class="content">
@@ -39,17 +33,14 @@
       </div>
   </div><!--content-->
 
-  <div class="footer">
-  <ul class="nav">
-      <li><a href="#">正體中文</a></li>
-      <li><a href="#">简体中文</a></li>
-      <li><a href="#">English</a></li>
-      <li><a href="#">français</a></li>
-      <li><a href="about/">關於本站</a></li>
-  </ul>
-  </div><!--footer-->
+  <!--navigation-->
+  <div w3-include-html="/static/footer.html"></div>
 
 </div><!--container-->
+
+<script>
+w3IncludeHTML();
+</script>
 
 </body>
 
